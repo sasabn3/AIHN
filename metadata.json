@@ -1,0 +1,6 @@
+{
+  "name": "AIHN — Artificial Intelligent Human Nexus",
+  "description": "An extraordinary, cinematic, immersive 3D universe experience exploring the AIHN conceptual ecosystem, its 8 specialized intelligence systems, the monumental living Nexus Core, and real-time Nexus Intelligence.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

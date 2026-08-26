@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: 0.05em;
+    background-color: #030508;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-mono-tech {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(5, 8, 15, 0.7);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(226, 232, 240, 0.4);
+}
+
+/* Atmospheric grid & vignette */
+.radial-vignette {
+  background: radial-gradient(circle at center, transparent 40%, rgba(2, 4, 8, 0.85) 100%);
+  pointer-events: none;
+}
+
+.hud-border {
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  background: rgba(6, 10, 18, 0.75);
+  backdrop-filter: blur(16px);
+}
+
+.hud-border-active {
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  background: rgba(12, 18, 30, 0.85);
+  backdrop-filter: blur(20px);
+}
+
+.glow-text-gold {
+  text-shadow: 0 0 15px rgba(234, 179, 8, 0.45);
+}
+
+.glow-text-cyan {
+  text-shadow: 0 0 15px rgba(56, 189, 248, 0.45);
+}
+
+.glow-box-subtle {
+  box-shadow: 0 0 25px -5px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
